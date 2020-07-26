@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "apollo-server": "^2.16.0",
+    "graphql": "^15.3.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^5.9.25"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js -e js,gql"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "name": "gql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
